@@ -19,7 +19,10 @@ form{
     min-width: 300px;
     padding-bottom: 2em;
 }
-
+ 
+main{
+margin: auto;
+}
 
 header{
      Margin: auto;
