@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header>
+    <h1 id="title">Welcome</h1>
+    <p id="description">Login to proceed</p>
+</header> 
+ <main>
+        <form id="login-form">
+                      
+            <div class="login-details">
+                 <label for="user-name" id="username-label"> User Name <input id="user-name" name="user-name" type="text" placeholder="Enter your User Name" required /></label>
+                 <label for="password" id="number-label"> Password <input id="password" name="password" min="10" max="30"   type="password"  placeholder="Enter your Password" required/></label>
+                 </div>
+            
+            <div class="wrapper">
+             <label for="remember-me"><input id="remember-me" type="checkbox" name="remember-me" class="inline" value="remember-me" checked="checked"/> Remember Me</label>
+              <a href="#">Forgotten Password</a>
+              </div>
+          <div>
+            <button id="submit" type="submit" value="Submit"> Login </button>
+          </div>
+    </form>
+</main>
+</body>
+</html>
